@@ -1,0 +1,65 @@
+$color-red: #d41414;
+
+#container-header {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  max-height: 100%;
+}
+
+#container-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  overflow-y: auto;
+  max-height: 100%;
+
+  .red-square {
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+    background-color: red;
+
+    .label-red-square {
+      height: 50%;
+      color: white;
+      font-weight: bold;
+      font-size: 1.3rem;
+      padding: 7px;
+      text-align: center;
+    }
+  }
+
+  .title-post {
+    color: $color-red;
+    font-size: 2rem;
+  }
+
+  .body-post {
+    font-size: 1rem;
+  }
+
+  .published-by {
+    font-size: 0.8rem;
+
+    .published-user {
+      color: $color-red;
+      display: inline;
+    }
+  }
+
+  .hiddenCard {
+    display: none;
+  }
+
+  .input-title-search {
+    float: right;
+  }
+
+}
+
+

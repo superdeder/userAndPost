@@ -1,0 +1,11 @@
+<div id="container">
+  <div class="jumbotron">
+    <h1 class="display-4">
+      <div style="color:red">{{singlePost.title}}</div>
+    </h1>
+    <p class="lead">{{singlePost.body}}</p>
+    <hr class="my-4">
+    <p>Pubblicato da: {{singleUser.name}} alias <span style="color:red">{{singleUser.username}}</span></p>
+    <a class="btn btn-primary btn-lg" (click)="backBtn()" role="button">BACK</a>
+  </div>
+</div>

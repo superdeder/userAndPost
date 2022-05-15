@@ -1,0 +1,17 @@
+$color-red: #d41414;
+
+#container-detail-section {
+
+  .card-title {
+    color: $color-red;
+    font-size: 1rem;
+  }
+
+  .card-text {
+    font-size: 0.8rem;
+  }
+
+  .card-publisher {
+    color: $color-red;
+  }
+}

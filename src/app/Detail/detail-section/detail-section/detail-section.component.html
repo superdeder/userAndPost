@@ -1,0 +1,15 @@
+<div id="container-detail-section">
+  <div class="card text-center">
+    <div class="card-header">
+      DETAIL OF POST
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">{{userDetail.title}}</h5>
+      <p class="card-text">{{userDetail.body}}</p>
+        <a href="#" class="btn btn-primary" (click)="closeDetail()">CLOSE</a>
+    </div>
+    <div class="card-footer text-muted">
+      Published by <span class="card-publisher">{{userDetail.username}}</span>
+    </div>
+  </div>
+</div>
