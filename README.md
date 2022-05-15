@@ -1,6 +1,6 @@
 #NOTE DEV
 - Il progetto è responsive a qualsiasi manipolazione della finestra.
-- E' possibile fare una ricerca sul titolo, dall'apposito box posto in alto a destra.
+- E' possibile fare una ricerca sul titolo, dall'apposito box posto in alto a destra (fa distinzione maiuscole e minuscole).
 - E' possibile cambiare colore ai quadrati premendo i tre pulsanti posti in alto a sinistra.
 - E' possibile aprire una modale di dettaglio cliccando sul quadrato a sinistra del post interessato.
 - E' possibile aprire il dettaglio on top, cliccando sul titolo del post interessato.
