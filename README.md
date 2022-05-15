@@ -1,3 +1,14 @@
+#NOTE DEV
+- Il progetto è responsive a qualsiasi manipolazione della finestra.
+- E' possibile fare una ricerca sul titolo, dall'apposito bo posto in alto a destra.
+- E' possibile cambiare colore ai quadrati premendo i tre pulsanti posti in alto a sinistra.
+- E' possibile aprire una modale di dettaglio cliccando sul quadrato a sinistra del post interessato.
+- E' possibile aprire il dettaglio on top, cliccando sul titolo del post interessato.
+- E' possibile fare la redirect ad una specifica pagina di dettaglio, cliccando sul nome del redattore del post interessato.
+- E' possibile eliminare il post dalla lista cliccando sulla 'x' in corrispondenza del post interessato.
+- Come libreria ho utilizzato bootstrap
+- E' stato utilizzato SCSS come preprocessore per i fogli di stile.
+
 # AltenProject
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
